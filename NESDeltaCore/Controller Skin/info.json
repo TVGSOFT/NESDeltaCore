@@ -1,116 +1,139 @@
 {
-  "name" : "Standard NES",
-  "identifier" : "com.delta.nes.standard",
-  "gameTypeIdentifier" : "com.rileytestut.delta.game.nes",
-  "debug" : false,
-  "representations" : {
-    "iphone" : {
-      "standard" : {
-        "portrait" : {
-          "assets" : {
-            "resizable" : "iphone_portrait.pdf"
-          },
-          "items" : [
-            {
-              "inputs" : {
-                "up" : "up",
-                "down" : "down",
-                "left" : "left",
-                "right" : "right"
-              },
-              "frame" : {
-                "x" : 22,
-                "y" : 44,
-                "width" : 120,
-                "height" : 120
-              },
-              "extendedEdges" : {
-                "top" : 15,
-                "bottom" : 15,
-                "left" : 15,
-                "right" : 15
-              }
-            },
-            {
-              "inputs" : [
-                "a"
-              ],
-              "frame" : {
-                "x" : 242,
-                "y" : 73,
-                "width" : 55,
-                "height" : 55
-              },
-              "extendedEdges" : {
-                "right" : 23
-              }
-            },
-            {
-              "inputs" : [
-                "b"
-              ],
-              "frame" : {
-                "x" : 171,
-                "y" : 73,
-                "width" : 55,
-                "height" : 55
-              }
-            },
-            {
-              "inputs" : [
-                "start"
-              ],
-              "frame" : {
-                "x" : 247,
-                "y" : 172,
-                "width" : 35,
-                "height" : 14
-              }
-            },
-            {
-              "inputs" : [
-                "select"
-              ],
-              "frame" : {
-                "x" : 186,
-                "y" : 172,
-                "width" : 35,
-                "height" : 14
-              }
-            },
-            {
-              "inputs" : [
-                "menu"
-              ],
-              "frame" : {
-                "x" : 22,
-                "y" : 201,
-                "width" : 17,
-                "height" : 16
-              },
-              "extendedEdges" : {
-                "left" : 22,
-                "bottom" : 23
-              }
-            }
-          ],
-          "mappingSize" : {
-            "width" : 320,
-            "height" : 240
-          },
-          "extendedEdges" : {
-            "top" : 7,
-            "bottom" : 7,
-            "left" : 7,
-            "right" : 7
-          }
-        },
-        "landscape": {
+  "name": "Standard NES",
+  "identifier": "com.delta.nes.standard",
+  "gameTypeIdentifier": "com.rileytestut.delta.game.nes",
+  "debug": false,
+  "previewImages": {
+    "portrait": "preview_portrait.png",
+    "landscape": "preview_landscape.png"
+  },
+  "representations": {
+    "iphone": {
+      "standard": {
+        "portrait": {
           "assets": {
-            "resizable": "iphone_landscape.pdf"
+            "resizable": "iphone_portrait.pdf"
           },
           "items": [
             {
+              "asset": {
+                "normal": "dpad.pdf"
+              },
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
+              },
+              "frame": {
+                "x": 22,
+                "y": 42,
+                "width": 120,
+                "height": 120
+              },
+              "extendedEdges": {
+                "top": 15,
+                "bottom": 15,
+                "left": 15,
+                "right": 15
+              }
+            },
+            {
+              "asset": {
+                "normal": "a.pdf"
+              },
+              "inputs": [
+                "a"
+              ],
+              "frame": {
+                "x": 242,
+                "y": 71,
+                "width": 55,
+                "height": 55
+              },
+              "extendedEdges": {
+                "right": 23
+              }
+            },
+            {
+              "asset": {
+                "normal": "a.pdf"
+              },
+              "inputs": [
+                "b"
+              ],
+              "frame": {
+                "x": 171,
+                "y": 71,
+                "width": 55,
+                "height": 55
+              }
+            },
+            {
+              "asset": {
+                "normal": "function.pdf"
+              },
+              "inputs": [
+                "start"
+              ],
+              "frame": {
+                "x": 247,
+                "y": 172,
+                "width": 35,
+                "height": 14
+              }
+            },
+            {
+              "asset": {
+                "normal": "function.pdf"
+              },
+              "inputs": [
+                "select"
+              ],
+              "frame": {
+                "x": 186,
+                "y": 172,
+                "width": 35,
+                "height": 14
+              }
+            },
+            {
+              "asset": {
+                "normal": "menu.pdf"
+              },
+              "inputs": [
+                "menu"
+              ],
+              "frame": {
+                "x": 22,
+                "y": 201,
+                "width": 17,
+                "height": 16
+              },
+              "extendedEdges": {
+                "left": 22,
+                "bottom": 23
+              }
+            }
+          ],
+          "mappingSize": {
+            "width": 320,
+            "height": 240
+          },
+          "extendedEdges": {
+            "top": 7,
+            "bottom": 7,
+            "left": 7,
+            "right": 7
+          }
+        },
+        "landscape": {
+          "assets": {},
+          "items": [
+            {
+              "asset": {
+                "normal": "dpad.pdf"
+              },
               "inputs": {
                 "up": "up",
                 "down": "down",
@@ -125,6 +148,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "a_landscape.pdf"
+              },
               "inputs": [
                 "a"
               ],
@@ -140,6 +166,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "b_landscape.pdf"
+              },
               "inputs": [
                 "b"
               ],
@@ -155,6 +184,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "start_landscape.pdf"
+              },
               "inputs": [
                 "start"
               ],
@@ -166,6 +198,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "select_landscape.pdf"
+              },
               "inputs": [
                 "select"
               ],
@@ -177,6 +212,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "menu_landscape.pdf"
+              },
               "inputs": [
                 "menu"
               ],
@@ -201,66 +239,78 @@
           "translucent": true
         }
       },
-      "edgeToEdge" : {
-        "portrait" : {
-          "assets" : {
-            "resizable" : "iphone_edgetoedge_portrait.pdf"
+      "edgeToEdge": {
+        "portrait": {
+          "assets": {
+            "resizable": "iphone_edgetoedge_portrait.pdf"
           },
-          "items" : [
+          "items": [
             {
-              "inputs" : {
-                "up" : "up",
-                "down" : "down",
-                "left" : "left",
-                "right" : "right"
+              "asset": {
+                "normal": "dpad.pdf"
               },
-              "frame" : {
-                "x" : 22,
-                "y" : 55,
-                "width" : 121,
-                "height" : 121
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
               },
-              "extendedEdges" : {
-                "top" : 15,
-                "bottom" : 15,
-                "left" : 22,
-                "right" : 15
+              "frame": {
+                "x": 22,
+                "y": 55,
+                "width": 121,
+                "height": 121
+              },
+              "extendedEdges": {
+                "top": 15,
+                "bottom": 15,
+                "left": 22,
+                "right": 15
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "a.pdf"
+              },
+              "inputs": [
                 "a"
               ],
-              "frame" : {
-                "x" : 242,
-                "y" : 84,
-                "width" : 56,
-                "height" : 56
+              "frame": {
+                "x": 242,
+                "y": 84,
+                "width": 56,
+                "height": 56
               },
-              "extendedEdges" : {
-                "right" : 23
+              "extendedEdges": {
+                "right": 23
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "a.pdf"
+              },
+              "inputs": [
                 "b"
               ],
-              "frame" : {
-                "x" : 171,
-                "y" : 84,
-                "width" : 56,
-                "height" : 56
+              "frame": {
+                "x": 171,
+                "y": 84,
+                "width": 56,
+                "height": 56
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "function.pdf"
+              },
+              "inputs": [
                 "start"
               ],
-              "frame" : {
-                "x" : 174,
-                "y" : 204,
-                "width" : 37,
-                "height" : 13
+              "frame": {
+                "x": 174,
+                "y": 204,
+                "width": 37,
+                "height": 13
               },
               "extendedEdges": {
                 "top": 15,
@@ -270,14 +320,17 @@
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "function.pdf"
+              },
+              "inputs": [
                 "select"
               ],
-              "frame" : {
-                "x" : 109,
-                "y" : 204,
-                "width" : 37,
-                "height" : 13
+              "frame": {
+                "x": 109,
+                "y": 204,
+                "width": 37,
+                "height": 13
               },
               "extendedEdges": {
                 "top": 15,
@@ -287,14 +340,17 @@
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "menu.pdf"
+              },
+              "inputs": [
                 "menu"
               ],
-              "frame" : {
-                "x" : 280,
-                "y" : 44,
-                "width" : 18,
-                "height" : 18
+              "frame": {
+                "x": 280,
+                "y": 44,
+                "width": 18,
+                "height": 18
               },
               "extendedEdges": {
                 "top": 30,
@@ -303,119 +359,134 @@
               }
             }
           ],
-          "mappingSize" : {
-            "width" : 320,
-            "height" : 274
+          "mappingSize": {
+            "width": 320,
+            "height": 274
           },
-          "extendedEdges" : {
-            "top" : 7,
-            "bottom" : 7,
-            "left" : 7,
-            "right" : 7
+          "extendedEdges": {
+            "top": 7,
+            "bottom": 7,
+            "left": 7,
+            "right": 7
           }
         },
-        "landscape" : {
-          "assets" : {
-            "resizable" : "iphone_edgetoedge_landscape.pdf"
-          },
-          "items" : [
+        "landscape": {
+          "assets": {},
+          "items": [
             {
-              "inputs" : {
-                "up" : "up",
-                "down" : "down",
-                "left" : "left",
-                "right" : "right"
+              "asset": {
+                "normal": "dpad.pdf"
               },
-              "frame" : {
-                "x" : 30,
-                "y" : 207,
-                "width" : 153,
-                "height" : 153
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
               },
-              "extendedEdges" : {
-                "left" : 30
+              "frame": {
+                "x": 30,
+                "y": 207,
+                "width": 153,
+                "height": 153
+              },
+              "extendedEdges": {
+                "left": 30
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "a_landscape.pdf"
+              },
+              "inputs": [
                 "a"
               ],
-              "frame" : {
-                "x" : 708,
-                "y" : 221,
-                "width" : 74,
-                "height" : 74
+              "frame": {
+                "x": 708,
+                "y": 221,
+                "width": 74,
+                "height": 74
               },
-              "extendedEdges" : {
+              "extendedEdges": {
                 "bottom": 0,
                 "left": 0,
-                "right" : 30
+                "right": 30
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "b_landscape.pdf"
+              },
+              "inputs": [
                 "b"
               ],
-              "frame" : {
-                "x" : 643,
-                "y" : 286,
-                "width" : 74,
-                "height" : 74
+              "frame": {
+                "x": 643,
+                "y": 286,
+                "width": 74,
+                "height": 74
               },
-              "extendedEdges" : {
+              "extendedEdges": {
                 "top": 0,
-                "right" : 0
+                "right": 0
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "start_landscape.pdf"
+              },
+              "inputs": [
                 "start"
               ],
-              "frame" : {
-                "x" : 416,
-                "y" : 334,
-                "width" : 73,
-                "height" : 26
+              "frame": {
+                "x": 416,
+                "y": 334,
+                "width": 73,
+                "height": 26
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "select_landscape.pdf"
+              },
+              "inputs": [
                 "select"
               ],
-              "frame" : {
-                "x" : 323,
-                "y" : 334,
-                "width" : 73,
-                "height" : 26
+              "frame": {
+                "x": 323,
+                "y": 334,
+                "width": 73,
+                "height": 26
               }
             },
             {
-              "inputs" : [
+              "asset": {
+                "normal": "menu_landscape.pdf"
+              },
+              "inputs": [
                 "menu"
               ],
-              "frame" : {
-                "x" : 370,
-                "y" : 15,
-                "width" : 73,
-                "height" : 26
+              "frame": {
+                "x": 370,
+                "y": 15,
+                "width": 73,
+                "height": 26
               }
             }
           ],
-          "mappingSize" : {
-            "width" : 812,
-            "height" : 375
+          "mappingSize": {
+            "width": 812,
+            "height": 375
           },
-          "extendedEdges" : {
-            "top" : 15,
-            "bottom" : 15,
-            "left" : 15,
-            "right" : 15
+          "extendedEdges": {
+            "top": 15,
+            "bottom": 15,
+            "left": 15,
+            "right": 15
           },
-          "translucent" : true
+          "translucent": true
         }
       }
-    }
-  ,
+    },
     "ipad": {
       "standard": {
         "portrait": {
@@ -426,6 +497,9 @@
           },
           "items": [
             {
+              "asset": {
+                "normal": "dpad.pdf"
+              },
               "inputs": {
                 "up": "up",
                 "down": "down",
@@ -446,6 +520,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "a.pdf"
+              },
               "inputs": [
                 "a"
               ],
@@ -461,6 +538,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "a.pdf"
+              },
               "inputs": [
                 "b"
               ],
@@ -475,6 +555,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "function.pdf"
+              },
               "inputs": [
                 "start"
               ],
@@ -486,6 +569,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "function.pdf"
+              },
               "inputs": [
                 "select"
               ],
@@ -497,6 +583,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "menu.pdf"
+              },
               "inputs": [
                 "menu"
               ],
@@ -524,11 +613,12 @@
           }
         },
         "landscape": {
-          "assets": {
-            "resizable": "ipad_landscape.pdf"
-          },
+          "assets": {},
           "items": [
             {
+              "asset": {
+                "normal": "dpad.pdf"
+              },
               "inputs": {
                 "up": "up",
                 "down": "down",
@@ -543,6 +633,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "a_landscape.pdf"
+              },
               "inputs": [
                 "a"
               ],
@@ -558,6 +651,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "b_landscape.pdf"
+              },
               "inputs": [
                 "b"
               ],
@@ -573,6 +669,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "start_landscape.pdf"
+              },
               "inputs": [
                 "start"
               ],
@@ -587,6 +686,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "select_landscape.pdf"
+              },
               "inputs": [
                 "select"
               ],
@@ -601,6 +703,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "menu_landscape.pdf"
+              },
               "inputs": [
                 "menu"
               ],
@@ -624,8 +729,7 @@
           },
           "translucent": true
         }
-      }
-    ,
+      },
       "splitView": {
         "portrait": {
           "assets": {
@@ -635,6 +739,9 @@
           },
           "items": [
             {
+              "asset": {
+                "normal": "dpad.pdf"
+              },
               "inputs": {
                 "up": "up",
                 "down": "down",
@@ -655,6 +762,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "a.pdf"
+              },
               "inputs": [
                 "a"
               ],
@@ -670,6 +780,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "a.pdf"
+              },
               "inputs": [
                 "b"
               ],
@@ -684,6 +797,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "function.pdf"
+              },
               "inputs": [
                 "start"
               ],
@@ -695,6 +811,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "function.pdf"
+              },
               "inputs": [
                 "select"
               ],
@@ -706,6 +825,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "menu.pdf"
+              },
               "inputs": [
                 "menu"
               ],
@@ -740,6 +862,9 @@
           },
           "items": [
             {
+              "asset": {
+                "normal": "dpad.pdf"
+              },
               "inputs": {
                 "up": "up",
                 "down": "down",
@@ -760,6 +885,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "a.pdf"
+              },
               "inputs": [
                 "a"
               ],
@@ -775,6 +903,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "a.pdf"
+              },
               "inputs": [
                 "b"
               ],
@@ -789,6 +920,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "function.pdf"
+              },
               "inputs": [
                 "start"
               ],
@@ -800,6 +934,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "function.pdf"
+              },
               "inputs": [
                 "select"
               ],
@@ -811,6 +948,9 @@
               }
             },
             {
+              "asset": {
+                "normal": "menu.pdf"
+              },
               "inputs": [
                 "menu"
               ],
